@@ -1,6 +1,6 @@
 # Bloops, a desktop buddy for Claude Code
 
-A pixel desktop buddy for Claude Code: one blob per chat, reacts live to what Claude is doing.
+A free, pixel desktop buddy for Claude Code: one bloop per chat, reacts live to what Claude is doing.
 
 ![Bloops reacting to Claude Code](docs/demo.gif)
 
