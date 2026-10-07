@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>Bloops</AssemblyName>
+    <Company>Online Perseverance</Company>
+    <Product>Bloops</Product>
+    <Copyright>Â© Online Perseverance</Copyright>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="Assets\*.png" />
+    <EmbeddedResource Include="..\sounds\*.wav" LogicalName="%(Filename)%(Extension)" /><EmbeddedResource Include="*-hooks.ps1" LogicalName="%(Filename)%(Extension)" />
+    <Using Remove="System.Windows.Forms" />
+    <Using Remove="System.Drawing" />
+  </ItemGroup>
+</Project>
